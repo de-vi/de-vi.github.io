@@ -1,0 +1,188 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Akkamahadevi Hiremath (Devi)",
+    "image": "https://avatars.githubusercontent.com/u/41126392",
+    "label": "Senior DevOps Consultant",
+    "email": "akkammah626@gmail.com",
+    "url": "https://about.de-vi.me",
+    "summary": "Senior DevOps consultant with ten years of experience working in the financial, data analytics and IT services sectors. Experienced in architectural design, automation and implementation of cloud infrastructure. Looking forward to bringing strategic value to challenging projects and developing current skills further.",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/de-vi/"
+      },
+      {
+        "network": "GitHub",
+        "url": "https://github.com/de-vi"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Amazon Web Services",
+      "position": "Senior DevOps Consultant",
+      "startDate": "2021",
+      "highlights": [
+        "<ul><li>Technical consulting and cloud automation design for strategic account customers. </li> <li>Building cloud infrastructure using IaC tools like Terraform, Cloudformation, AWS CDK and Pulumi. </li> <li>Design and implementation of CICD pipelines in Jenkins, Gitlab, AWS Codepipeline etc. </li><li>AWS Lambda function development using Python</li></ul>"
+      ]
+    },
+    {
+      "name": "Early Warning Services",
+      "position": "Senior DevOps Engineer",
+      "startDate": "2020",
+      "endDate": "2021",
+      "highlights": [
+        "<ul><li>Lead DevOps Engineer for systems team responsible for the infrastructure design and automation in AWS and On-Premise. <ul><li>Capture application performance metrics through app dynamics and visualization using dashboards</li><li>Send system logs and application logs to Splunk</li><li>Create alerts in Zabbix for service disruptions</li><li>Filesystem Encryption at rest with Vormetric</li><li>Secrets management in Hashicorp Vault</li></ul><li>Development of Ansible playbooks & roles, and Terraform scripts to automate infrastructure provisioning and configuration</li><li>Application infrastructure rollout to Dev, QA and Production environments and subsequent upgrades</li><li>Implementation of infrastructure deployment pipelines in Bamboo</li></ul>"
+      ]
+    },
+    {
+      "name": "Legal & General",
+      "position": "Senior DevOps Engineer",
+      "startDate": "2018",
+      "endDate": "2019",
+      "highlights": [
+        "<ul><li>Infrastructure-as-code (Terraform) implementation of Hashicorp Vault for enterprise secrets infrastructure on AWS with Consul backend</li><ul><li>Automatic generation and distribution of master keys (shamir shards) to administrators to perform seal/unseal</li></ul><li>Building standard AMIs using Hashicorp Packer</li><li>Using KOps, Helm and Ansible to build Kubernetes clusters in AWS for development, test and production environments with</li><ul><li>Cluster auto-scaler </li><li>IAM based authentication</li><li>Metrics server</li><li>Filebeat for container log shipping to Elasticsearch</li><li>Istio service mesh</li><li>Prometheus and Grafana for monitoring of service metrics</li><li>External DNS to create Route53 records for exposed services</li></ul><li>Development and maintenance of services using Helm charts </li><ul><li>Blue-green and canary releases of production services leveraging Istio virtualservice and destination rule</li></ul><li>Horizontal pod autoscaler for responding automatically to variations in traffic</li><li>Implementation of Jenkins shared library functions for reusable stages for application CI/CD pipelines across the enterprise</li><ul><li>SonarQube code scan, Docker image build, Nexus IQ image scan, Browserstack tests, and service deployment to Kubernetes clusters</li></ul><li>Implementation of AWS Cloudfront CDN and WAF rules</li><ul><li>WAF log capture in S3 using Kinesis Firehose for audit</li></ul></ul>"
+      ]
+    },
+    {
+      "name": "Tata Consultancy Services",
+      "position": "Cloud DevOps Solutions Architect (Contracted for Nielsen)",
+      "startDate": "2016",
+      "endDate": "2018",
+      "highlights": [
+        "<ul><li>Technical lead of offshore automation team</li><li>Design, development and drive adoption of cloud provisioning automation solution across the enterprise</li><ul><li>Development of Ansible roles for provisioning cloud services in various tech patterns </li><ul><li>Automation building blocks developed for EC2 (Linux and Windows), ELB (Classic and Application), EBS, S3, ECS, EKS, EFS, ASG, API Gateway, RDS, Redshift, DynamoDB, SQS, Lambda, SNS, SWF, Security Groups, IAM, Route53, Cloudfront, Cloudwatch </li></ul><li>Integration of Cloudformation templates with Ansible playbooks for special provisioning needs</li><li>Development of Ansible custom modules using Python Boto3</li><li>Installation and configuration of Ansible Tower</li><li>Integration of Ansible Tower with CI/CD tools like Jenkins via Tower REST API and Tower-cli</li></ul><li>Creation and maintenance of standard AMIs of various Operating Systems with baked-in monitoring and security components such as Snort, Cylance, Filebeat, Zabbix, New Relic etc.</li><li>Implementation of monitoring infrastructure using AWS Elasticsearch</li><li>Migrating application stacks from on-premise to cloud</li><ul><li>Evaluation of on-premise application design to identify the suitable cloud architecture</li><li>Configuration of Ansible Tower projects and job templates for use by the application teams for their stack provisioning</li><li>Assisting application teams in stack configurations such as definition of user data for EC2 and ASG Launch Configurations</li><li>Providing subject matter guidance on AWS to application developers</li><li>Design and implementation of application on-boarding interface using Python Django</li></ul><li>Automation of time boxed access control for application teams</li></ul>"
+      ]
+    },
+    {
+      "name": "Tata Consultancy Services",
+      "position": "Database Administrator (Contracted for American Express)",
+      "startDate": "2011",
+      "endDate": "2016",
+      "highlights": [
+        "<ul><li>Design of databases and physical data modeling</li><li>Administration of Oracle and SQL Server databases and Oracle Goldengate replication technology at enterprise level</li><li>Establishment and maintenance of database and replication standards</li><li>Performance tuning during development and test phases</li><li>Scheduling periodic backups using RMAN and recovery after failures</li><li>Database refresh in lower environments using production backup</li></ul>"
+      ]
+    }
+  ],
+  "volunteer": [
+  ],
+  "education": [
+    {
+      "institution": "B. V. B College of Engineering and Technology",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2007",
+      "endDate": "2011"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "AWS Certified Solutions Architect - Associate",
+      "date": "2021"
+    },
+    {
+      "name": "AWS Certified DevOps Engineer - Professional",
+      "date": "2021"
+    },
+    {
+      "name": "AWS Certified SysOps Engineer - Associate",
+      "date": "2021"
+    },
+    {
+      "name": "AWS Certified Developer - Associate",
+      "date": "2021"
+    },
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "date": "2021"
+    }
+  ],
+  "publications": [
+  ],
+  "skills": [
+    {
+      "name": "Cloud",
+      "keywords": [
+        "AWS"
+      ]
+    },
+    {
+      "name": "DevOps & CICD",
+      "keywords": [
+        "Terraform",
+        "Kubernetes",
+        "Helm",
+        "Ansible",
+        "Jenkins",
+        "GitLab",
+        "GitHub Actions",
+        "Kops", 
+        "Vault",
+        "Packer",
+        "Ansible Tower",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Programming",
+      "keywords": [
+        "Python",
+        "Shell scripting (bash)",
+        "Powershell (windows)"
+      ]
+    },
+    {
+      "name": "Operating Systems",
+      "keywords": [
+        "Linux (RHEL, CentOS, Amazon Linux, Ubuntu)",
+        "Windows"
+      ]
+    },
+    {
+      "name": "Database Systems",
+      "keywords": [
+        "AWS RDS",
+        "AWS Redshift",
+        "AWS DynamoDB",
+        "Oracle",
+        "SQL Server",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "name": "Replication Technology",
+      "keywords": ["Oracle GoldenGate"]
+    },
+    {
+      "name": "Development Methodology",
+      "keywords": ["Agile", "Waterfall"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English"
+    },
+    {
+      "language": "Kannada"
+    },
+    {
+      "language": "Hindi"
+    },
+    {
+      "language": "Telugu"
+    },
+    {
+      "language": "Malayalam"
+    }
+  ],
+  "interests": [
+  ],
+  "references": [
+  ],
+  "projects": [
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
