@@ -1,4 +1,4 @@
-#de-vi.github.io
+# de-vi.github.io
 
 ```
 npm install -g resume-cli
